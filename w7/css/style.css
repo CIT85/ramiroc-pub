@@ -6,9 +6,27 @@
     text-align: center;
     padding-block: 30vh 5vh;
 }
-
 .attendance-hero h2 {
     color: #fff;
     font-size:5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.attendance-card {
+    background-image: linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.6)), url(../images/texture-new.webp);
+    background-size: cover;
+    background-position: center bottom;
+    max-width: 500px;
+    margin: 4rem auto;
+    border-left: 5px solid #17365D;
+    padding: 40px;
+}
+
+.attendance-card h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.attendance-card ul {
+    color: orangered;
 }
